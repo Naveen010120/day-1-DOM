@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>accessing and creating tags</title>
+    <style>
+        table,th,td{
+            border: 2px solid;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        let para=document.createElement('p')
+        let ul=document.createElement('ul');
+        let li1=document.createElement('li')
+        let li2=document.createElement('li')
+        let li3=document.createElement('li')
+        let div=document.createElement('div')
+        let h1=document.createElement('h1')
+        let h2=document.createElement('h2')
+        let header=document.createElement('header')
+        let table=document.createElement('table');
+        let tr1=document.createElement('tr')
+        let tr2=document.createElement('tr')
+        let tr3=document.createElement('tr')
+        let th1=document.createElement('th')
+        let th2=document.createElement('th')
+        let th3=document.createElement('th')
+        let r1_td1=document.createElement('td')
+        let r1_td2=document.createElement('td')
+        let r1_td3=document.createElement('td')
+        let r2_td1=document.createElement('td')
+        let r2_td2=document.createElement('td')
+        let r2_td3=document.createElement('td')
+        let r3_td1=document.createElement('td')
+        let r3_td2=document.createElement('td')
+        let r3_td3=document.createElement('td')
+        let section=document.createElement('section')
+        let img=document.createElement('img')
+        let para1=document.createElement('p')
+        let ol=document.createElement('ol')
+        let li4=document.createElement('li')
+        let li5=document.createElement('li')
+        let li6=document.createElement('li')
+        let section1=document.createElement('section')
+        let h21=document.createElement('h2')
+        let para2=document.createElement('p')
+        let dl=document.createElement('dl')
+        let dt1=document.createElement('dt')
+        let dt2=document.createElement('dt')
+        let dt3=document.createElement('dt')
+        let dd1=document.createElement('dd')
+        let dd2=document.createElement('dd')
+        let dd3=document.createElement('dd')
+        let div1=document.createElement('div')
+        let blockquote=document.createElement('blockquote')
+        let div2=document.createElement('div');
+        let para3=document.createElement('p')
+        let para4=document.createElement('p')
+        let para5=document.createElement('p')
+
+        document.body.appendChild(para)
+        document.body.appendChild(div)
+        document.body.appendChild(header)
+        document.body.appendChild(section)
+        div.appendChild(h1)
+        div.appendChild(h2)
+        header.appendChild(ul)
+        ul.appendChild(li1)
+        ul.appendChild(li2)
+        ul.appendChild(li3)
+        document.body.appendChild(table)
+        table.appendChild(tr1)
+        table.appendChild(tr2)
+        table.appendChild(tr3)
+        tr1.appendChild(th1)
+        tr1.appendChild(th2)
+        tr1.appendChild(th3)
+        tr2.appendChild(r1_td1)
+        tr2.appendChild(r1_td2)
+        tr2.appendChild(r1_td3)
+        tr3.appendChild(r2_td1)
+        tr3.appendChild(r2_td2)
+        tr3.appendChild(r2_td3)
+        section.appendChild(img)
+        section.appendChild(para1)
+        document.body.appendChild(ol);
+        ol.appendChild(li4)
+        ol.appendChild(li5)
+        ol.appendChild(li6)
+        document.body.appendChild(section1)
+        section1.appendChild(h21)
+        section1.appendChild(para2)
+        document.body.appendChild(dl)
+        dl.appendChild(dt1)
+        dl.appendChild(dt2)
+        dl.appendChild(dt3)
+        dl.appendChild(dd1)
+        dl.appendChild(dd2)
+        dl.appendChild(dd3)
+        document.body.appendChild(div1)
+        div1.appendChild(blockquote);
+        document.body.appendChild(div2)
+        div2.appendChild(para3)
+        div2.appendChild(para4)
+        div2.appendChild(para5)
+
+        para.innerText="Welcome to javaScript DOM manipulation";
+        h1.innerText="Main Heading";
+        h2.innerText="Sub Heading";
+        li1.innerText="fruits";
+        li2.innerText="Vegetable";
+        li3.innerText="Non veg";
+        th1.innerText="Name";
+        th2.innerText="age";
+        th3.innerText="Group";
+        r1_td1.innerText="Naveen"
+        r1_td2.innerText="18"
+        r1_td3.innerText="Cse"
+        r2_td1.innerText="Vamshi"
+        r2_td2.innerText="21"
+        r2_td3.innerText="90"
+        r3_td1.innerText="Karthik"
+        r3_td2.innerText="22"
+        r3_td3.innerText="08"
+        img.src="./medium.webp"
+        para1.innerText="cat image"
+        li4.innerText="Vamshi"
+        li5.innerText="Naveen"
+        li6.innerText="praveen"
+        h21.innerText="Heading 2"
+        para2.innerText="second paragraph"
+        dt1.innerText="Non-veg"
+        dt2.innerText="mutton"
+        dt3.innerText="chicken"
+        dd1.innerText="veg"
+        dd2.innerText="paneer"
+        dd3.innerText="potato"
+        blockquote.innerText="blockquote text in this para";
+        para3.innerText="paragraph 1"
+        para4.innerText="paragraph 2"
+        para5.innerText="paragraph 3"
+    </script>
+</body>
+</html>
